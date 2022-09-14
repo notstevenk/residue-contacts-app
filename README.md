@@ -1,6 +1,6 @@
 # residue-contacts-app
 
-Conceptualized by Ruby Froom. Executed by Steven Koh.
+Conceptualized by Ruby Froom. Written by Steven Koh with guidance from Ruby Froom.
 
 Takes the raw output of ccp4, a program that identifies all inter-chain or inter-atom contacts below a user-provided distance, as a plain .txt file.
 Enables interactive filtering to identify functionally-relevant interactions (hydrogen bonds, salt bridges/ionic interactions, Van der Waals/hydrophobic interactions).
