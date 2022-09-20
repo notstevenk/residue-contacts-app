@@ -6,7 +6,7 @@ library(htmlwidgets)
 library(jsonlite)
 library(bslib)
 ui <- fluidPage(
-  #orig: bg rgb(38, 38, 38), fg #fff, primary = "rgb(181, 72, 98)", secondary = "rgb(82, 165, 171)
+
   theme = bslib::bs_theme(bootswatch="flatly", bg = "rgb(38, 38, 38)", fg = "#fff", primary = "rgb(181, 72, 98)", secondary = "rgb(82, 165, 171)"),
   titlePanel(
     #Instructions text at the top of the ui
@@ -15,7 +15,7 @@ ui <- fluidPage(
     sidebarPanel(style="overflow-y:auto; overflow-x:auto",
     h5("Works with the following CCP4 parameters:"),
     
-    #Embedded image, file is in the 'www' folder
+    #Embedded images, file in the 'www' folder
   actionButton("ccp4image", "Show parameters"),
     h5("Inter chain is shown here, but inter residue should also work."),
     
